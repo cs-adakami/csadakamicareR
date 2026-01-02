@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layanan Bantuan AdaKami</title>
-    <link rel="stylesheet" href="https://ad-layanan-adakami-id.vercel.app/assets/index-B0LjAwRt.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes heartbeat {
             0% { transform: scale(1); }
@@ -29,74 +29,69 @@
             animation: heartbeat 1.5s infinite;
             text-decoration: none;
         }
-        .floating-wa svg {
-            width: 30px;
-            height: 30px;
-            fill: white;
-        }
     </style>
 </head>
-<body>
+<body class="bg-[#2a3e7c] text-white font-sans">
     <div id="root">
-        <div class="min-h-screen bg-[#2a3e7c] text-white">
+        <div class="min-h-screen">
             <div class="max-w-md mx-auto px-6 py-10">
                 <div class="mb-8">
-                    <h1 class="text-3xl font-bold mb-4">Layanan Adakami</h1>
+                    <h1 class="text-3xl font-bold mb-4">Layanan AdaKami</h1>
                     <div class="border-t-2 border-white/30 mb-4"></div>
                     <p class="text-sm leading-relaxed mb-6">
-                        [span_2](start_span)Layanan CS Adakami 24 Jam.[span_2](end_span)
-                        [span_3](start_span)Hubungi bantuan pelunasan atau cancellation ganti tenor tanpa denda.[span_3](end_span)
+                        Layanan CS AdaKami 24 Jam.<br>
+                        Hubungi bantuan pelunasan atau pembatalan ganti tenor tanpa denda.
                     </p>
                 </div>
 
-                <div class="bg-white rounded-2xl p-4 mb-8 text-center shadow-lg">
+                <div class="bg-white rounded-2xl p-4 mb-8 text-center shadow-lg text-gray-800">
                     <div class="bg-[#00b894] text-white font-bold text-sm px-2 py-2 rounded-lg mb-4">
                         Cara mendapatkan keringanan pembayaran AdaKami
                     </div>
                     <div class="flex items-center justify-center gap-4 mb-4">
                         <div class="bg-[#00b894] w-16 h-16 rounded-xl flex items-center justify-center shrink-0 overflow-hidden">
-                            <img src="https://69543702934f3f92381f9e9c.imgix.net/csadakami.png" alt="Logo Adakami" class="w-full h-full object-contain p-2">
+                            <img src="https://69543702934f3f92381f9e9c.imgix.net/csadakami.png" alt="Logo" class="w-full h-full object-contain p-2">
                         </div>
-                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=400" alt="CS" class="w-full h-20 object-cover rounded-lg">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400" alt="CS" class="w-full h-20 object-cover rounded-lg">
                     </div>
-                    [span_4](start_span)<a href="https://wa.me/62822333391?text=Hallo%20CS%20Adakami" class="bg-[#00b894] text-white font-bold text-xs px-6 py-2 rounded-full inline-block">Simak di sini!</a>[span_4](end_span)
+                    <a href="https://wa.me/62822333391" class="bg-[#00b894] text-white font-bold text-xs px-6 py-2 rounded-full inline-block">
+                        Simak di sini!
+                    </a>
                 </div>
 
-                <div class="flex flex-col items-center space-y-2 mb-10">
-                    <a href="https://wa.me/62822333391?text=Hallo%20CS%20Adakami" class="w-3/4 bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-2.5 px-4 flex items-center gap-3">
-                        <span class="text-xs font-semibold">Bayar Cicilan/Pelunasan</span>
-                    [span_5](start_span)[span_6](start_span)</a>[span_5](end_span)[span_6](end_span)
-                    <a href="https://wa.me/62822333391?text=Hallo%20CS%20Adakami" class="w-3/4 bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-2.5 px-4 flex items-center gap-3">
-                        <span class="text-xs font-semibold">Pembatalan Adakami</span>
-                    [span_7](start_span)[span_8](start_span)</a>[span_7](end_span)[span_8](end_span)
-                    <a href="https://wa.me/62822333391?text=Hallo%20CS%20Adakami" class="w-3/4 bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-2.5 px-4 flex items-center gap-3">
+                <div class="flex flex-col items-center space-y-3 mb-10">
+                    <a href="#" class="w-full bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-3 px-4 flex items-center justify-center">
+                        <span class="text-xs font-semibold">Bayar Cicilan / Pelunasan</span>
+                    </a>
+                    <a href="#" class="w-full bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-3 px-4 flex items-center justify-center">
+                        <span class="text-xs font-semibold">Pembatalan AdaKami</span>
+                    </a>
+                    <a href="#" class="w-full bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-3 px-4 flex items-center justify-center">
                         <span class="text-xs font-semibold">Ganti Tenor</span>
-                    [span_9](start_span)[span_10](start_span)</a>[span_9](end_span)[span_10](end_span)
-                    <a href="https://wa.me/62822333391?text=Hallo%20CS%20Adakami" class="w-3/4 bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-2.5 px-4 flex items-center gap-3">
-                        <span class="text-xs font-semibold">Obrolan Langsung Adakami</span>
-                    [span_11](start_span)[span_12](start_span)</a>[span_11](end_span)[span_12](end_span)
+                    </a>
+                    <a href="#" class="w-full bg-[#4a9fe5] hover:bg-[#3d8ed4] transition-all rounded-lg py-3 px-4 flex items-center justify-center">
+                        <span class="text-xs font-semibold">Obrolan Langsung AdaKami</span>
+                    </a>
                 </div>
 
-                <div class="text-xs space-y-6 opacity-90">
+                <div class="text-xs space-y-6 opacity-90 border-t border-white/20 pt-6">
                     <div>
-                        [span_13](start_span)<h2 class="text-lg font-bold mb-2">Tentang Kami</h2>[span_13](end_span)
-                        <div class="border-t border-white/30 mb-2"></div>
-                        [span_14](start_span)<p>Hubungi Call Center Kredit Adakami untuk bantuan informasi produk</p>[span_14](end_span)
+                        <h2 class="text-lg font-bold mb-1">Tentang Kami</h2>
+                        <p>Hubungi Call Center Kredit AdaKami untuk bantuan informasi produk.</p>
                     </div>
                     <div>
-                        [span_15](start_span)<h2 class="text-lg font-bold mb-2">Kantor</h2>[span_15](end_span)
-                        <div class="border-t border-white/30 mb-2"></div>
-                        [span_16](start_span)<p>Gedung Cyber 2 Tower Lantai 28, Kuningan Timur, Jakarta Selatan.</p>[span_16](end_span)
-                        [span_17](start_span)<p>Telepon: 0822333391</p>[span_17](end_span)
+                        <h2 class="text-lg font-bold mb-1">Kantor</h2>
+                        <p>Gedung Cyber 2 Tower Lantai 28, Kuningan Timur, Jakarta Selatan.</p>
+                        <p class="mt-1 font-bold">Hotline: 1500077</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <a href="https://wa.me/62822333391?text=Hallo%20CS%20Adakami" class="floating-wa">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.414 0 .004 5.412 0 12.048c0 2.123.554 4.197 1.602 6.034L0 24l6.117-1.605a11.803 11.803 0 005.925 1.577h.005c6.632 0 12.042-5.411 12.045-12.047a11.85 11.85 0 00-3.536-8.509" />
+    <a href="https://wa.me/62822333391" class="floating-wa">
+        <svg style="width:30px;height:30px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12.04 2C6.5 2 2 6.5 2 12.04c0 2.19.7 4.21 1.9 5.86L2.43 23.54l5.74-1.47a9.97 9.97 0 0 0 3.87.8c5.54 0 10.04-4.5 10.04-10.04C22.08 6.5 17.58 2 12.04 2M8.43 7.31c.17 0 .34 0 .52.03c.18.03.41.07.62.54c.21.47.72 1.75.79 1.88c.07.14.11.3.02.48c-.09.18-.14.29-.28.45c-.14.16-.3.35-.43.47c-.14.14-.29.3-.12.6c.17.29.75 1.24 1.62 2.02c1.12.98 2.06 1.29 2.36 1.44c.3.15.48.12.66-.08c.18-.21.78-.91.99-1.22c.21-.31.42-.26.71-.15c.29.11 1.84.87 2.16 1.03c.32.16.53.24.61.37c.08.13.08.76-.23 1.62c-.31.86-1.83 1.39-2.52 1.43c-.7.04-1.35-.19-4.32-1.35c-3.6-1.41-5.83-5.07-6.01-5.31c-.18-.24-1.48-1.97-1.48-3.76c0-1.79.94-2.67 1.27-3.03c.33-.37.74-.46.91-.46Z" />
         </svg>
     </a>
 </body>
