@@ -1,2 +1,2 @@
 # csadakamicareR
-Pusat pelayanan bantuan pinjaman AdaKami
+Pusat pelayanan bantuan AdaKami
